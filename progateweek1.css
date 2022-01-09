@@ -1,0 +1,73 @@
+.header {
+    flex: auto;
+    text-align: center;
+}
+.header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+.header-list {
+    display: flex;
+}
+.header-list h3 {
+    margin: 0 auto;
+    margin-bottom: 3%;
+    font-weight: 50;
+}
+
+.main-top {
+    height: 120px;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.35)
+}
+.main-top a {
+   color: white;
+    padding: 5px;
+   background:rgb(58, 58, 255);
+   font-size: 70%;
+}
+
+.lesson {
+    flex-wrap: wrap;
+    display: flex;
+}
+.lesson-list{
+    color: white;
+   box-sizing: border-box;  
+    width: 28%;
+    background-color: rgb(58, 58, 255);
+    padding-left: 2% ;
+    margin: 2% auto;
+}
+.lesson-list h4 {
+   font-weight: 550;
+}
+.see-more {
+    text-align: center;
+    text-decoration: underline;
+}
+.see-more i {
+    text-decoration: underline;
+}
+
+.border-main {
+  text-decoration: underline;
+  flex: auto;
+  background-color: black;
+  height: 0.5px;
+}
+
+.footer {
+    display: flex;   
+}
+.footer h4 {
+    flex: auto;
+}
+.footer-list {
+  float: right;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+.footer-list div {
+    margin-top: 10%;
+}
